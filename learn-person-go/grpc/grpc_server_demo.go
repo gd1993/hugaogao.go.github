@@ -7,21 +7,9 @@ import (
 	"net/rpc"
 )
 
-//结构体   用于注册
-type Arith struct {
-}
-
-//声明参数结构体
-type ArithRequest struct {
-	A, B int
-}
-
-//返回客户端的结果
-type ArithResponse struct {
-	Pro int
-	Quo int
-	Rem int
-}
+var a1 Arith
+var b1 ArithRequest
+var c1 ArithResponse
 
 //乘积
 func (this *Arith) Multiply(req ArithRequest, res *ArithResponse) error {

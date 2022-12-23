@@ -3,6 +3,9 @@ module learn_demo
 go 1.18
 
 require (
+	github.com/antlabs/timer v0.0.10
+	github.com/bwmarrin/snowflake v0.3.0
+	github.com/cheggaaa/pb/v3 v3.1.0
 	github.com/gin-gonic/gin v1.8.1
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/google/uuid v1.3.0
@@ -11,6 +14,7 @@ require (
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/kataras/iris/v12 v12.2.0-beta6
 	github.com/robfig/cron v1.2.0
+	github.com/sony/sonyflake v1.1.0
 	golang.org/x/time v0.3.0
 )
 
@@ -20,9 +24,12 @@ require (
 	github.com/CloudyKit/jet/v6 v6.1.0 // indirect
 	github.com/Joker/jade v1.1.3 // indirect
 	github.com/Shopify/goreferrer v0.0.0-20220729165902-8cddb4f5de06 // indirect
+	github.com/VividCortex/ewma v1.1.1 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/antlabs/stl v0.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385 // indirect
+	github.com/fatih/color v1.10.0 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/flosch/pongo2/v4 v4.0.2 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
@@ -45,11 +52,14 @@ require (
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mailgun/raymond/v2 v2.0.47 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
+	github.com/mattn/go-runewidth v0.0.12 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.21 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.1 // indirect
+	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/schollz/closestmatch v2.1.0+incompatible // indirect
 	github.com/sirupsen/logrus v1.8.1 // indirect

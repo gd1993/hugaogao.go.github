@@ -6,17 +6,9 @@ import (
 	"net/rpc"
 )
 
-//声明参数结构体
-type ArithRequest struct {
-	A, B int
-}
-
-//返回客户端的结果
-type ArithResponse struct {
-	Pro int
-	Quo int
-	Rem int
-}
+var a Arith
+var b ArithRequest
+var c ArithResponse
 
 func main() {
 	conn, err := rpc.DialHTTP("tcp", ":8090")
