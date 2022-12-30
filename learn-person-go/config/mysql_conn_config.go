@@ -25,11 +25,11 @@ type Pool struct {
 }
 
 func init() {
-	newConnSize(100)
+	NewConnSize(100)
 }
 
 //创建链接
-func newConnSize(size int) (*Pool, error) {
+func NewConnSize(size int) (*Pool, error) {
 	if size <= 0 {
 		return nil, PoolUnInvaildSizeError
 	}

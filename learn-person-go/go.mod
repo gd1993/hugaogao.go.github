@@ -3,10 +3,13 @@ module learn_demo
 go 1.18
 
 require (
+	github.com/antchfx/htmlquery v1.2.5
 	github.com/antlabs/timer v0.0.10
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/cheggaaa/pb/v3 v3.1.0
+	github.com/gin-gonic/autotls v0.0.5
 	github.com/gin-gonic/gin v1.8.1
+	github.com/go-playground/validator/v10 v10.10.0
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/google/uuid v1.3.0
 	github.com/iris-contrib/middleware/jwt v0.0.0-20221109225525-f806663b83a0
@@ -16,6 +19,8 @@ require (
 	github.com/robfig/cron v1.2.0
 	github.com/sony/sonyflake v1.1.0
 	golang.org/x/time v0.3.0
+	gorm.io/driver/mysql v1.4.4
+	gorm.io/gorm v1.24.2
 )
 
 require (
@@ -26,6 +31,7 @@ require (
 	github.com/Shopify/goreferrer v0.0.0-20220729165902-8cddb4f5de06 // indirect
 	github.com/VividCortex/ewma v1.1.1 // indirect
 	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/antchfx/xpath v1.2.1 // indirect
 	github.com/antlabs/stl v0.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385 // indirect
@@ -35,12 +41,14 @@ require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
-	github.com/go-playground/validator/v10 v10.10.0 // indirect
 	github.com/goccy/go-json v0.9.7 // indirect
 	github.com/golang-jwt/jwt/v4 v4.4.2 // indirect
+	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/iris-contrib/schema v0.0.6 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/kataras/blocks v0.0.7 // indirect
@@ -72,6 +80,7 @@ require (
 	github.com/yosssi/ace v0.0.5 // indirect
 	golang.org/x/crypto v0.0.0-20220919173607-35f4265a4bc0 // indirect
 	golang.org/x/net v0.0.0-20221002022538-bcab6841153b // indirect
+	golang.org/x/sync v0.0.0-20220819030929-7fc1605a5dde // indirect
 	golang.org/x/sys v0.0.0-20220919091848-fb04ddd9f9c8 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
